@@ -8,7 +8,7 @@
     "init-claudia": "claudia generate-serverless-express-proxy --express-module server",
     "create-api": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-2",
     "update-api": "claudia --update",
-    "dev": "nodemon local.js"
+    "dev": "nodemon server.js"
   },
   "license": "MIT",
   "dependencies": {

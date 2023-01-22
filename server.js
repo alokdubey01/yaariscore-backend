@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const cors = require('cors');
+const port = process.env.PORT || 8000
 app.use(cors())
 
 app.use('/cube',express.static("public/cube"));
@@ -46,4 +47,6 @@ app.get("/tetris", (req, res) => {
   res.sendFile(path.join(__dirname, "public/tetris/app.html"));
 });
 
-module.exports = app;
+app.listen(port, () => {
+  console.log(`Server started on ${port}`);
+});
