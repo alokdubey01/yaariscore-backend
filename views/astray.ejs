@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
-  <!-- <head>
-    <script src="static/Box2dWeb.min.js"></script>
-    <script src="static/Three.js"></script>
-    <script src="static/keyboard.js"></script>
-    <script src="static/jquery.js"></script>
-    <script src="static/maze.js"></script>
+  <head>
+    <script src="../js/Box2dWeb.min.js"></script>
+    <script src="../js/Three.js"></script>
+    <script src="../js/keyboard.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/maze.js"></script>
 
     <script>
       var camera = undefined,
@@ -20,9 +21,9 @@
         ballMesh = undefined,
         ballRadius = 0.25,
         keyAxis = [0, 0],
-        ironTexture = THREE.ImageUtils.loadTexture("static/ball.png"),
-        planeTexture = THREE.ImageUtils.loadTexture("static/concrete.png"),
-        brickTexture = THREE.ImageUtils.loadTexture("static/brick.png"),
+        ironTexture = THREE.ImageUtils.loadTexture("../ball.png"),
+        planeTexture = THREE.ImageUtils.loadTexture("..//concrete.png"),
+        brickTexture = THREE.ImageUtils.loadTexture("../brick.png"),
         gameState = undefined,
         // Box2D shortcuts
         b2World = Box2D.Dynamics.b2World,
@@ -337,7 +338,7 @@
         font-weight: bold;
       }
 
-      .fork{
+      .fork {
         color: blue;
         text-decoration: none;
         position: absolute;
@@ -345,7 +346,13 @@
         right: 5px;
       }
     </style>
-  </head> -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui"
+    />
+    <title>Astray | YaariScore</title>
+  </head>
 
   <body>
     <div id="instructions">

@@ -5,7 +5,7 @@ const cors = require("cors");
 const port = process.env.PORT || 8000;
 app.use(cors());
 app.set("view engine", "ejs");
-app.use(express.static('public'))
+app.use('/' ,express.static('public'))
 
 app.get("/", (req, res) => {
   res.send("Link is working fine");
@@ -15,6 +15,12 @@ app.get("/cube", (req, res) => {
 });
 app.get("/astray", (req, res) => {
   res.render("astray");
+});
+app.get("/2048", (req, res) => {
+  res.render("twenty");
+});
+app.get("/highway", (req, res) => {
+  res.render("highway");
 });
 
 app.listen(port, () => {
