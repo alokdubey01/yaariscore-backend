@@ -1,0 +1,82 @@
+[
+  {
+    "name": "The Cube",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/cube",
+      "image": "http://localhost:8000/cube.svg"
+    }
+  },
+  {
+    "name": "2048",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/2048",
+      "image": "https://www.linkpicture.com/q/2_965.jpg"
+    }
+  },
+  {
+    "name": "The Car",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/highway",
+      "image": "https://www.linkpicture.com/q/3_695.jpg"
+    }
+  },
+  {
+    "name": "Tower Build",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/tower",
+      "image": "https://www.linkpicture.com/q/4_543.jpg"
+    }
+  },
+  {
+    "name": "The Maze",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/pickle_rick",
+      "image": "https://www.linkpicture.com/q/3_695.jpg"
+    }
+  },
+  {
+    "name": "Tic Tac Toe",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/tictactoe",
+      "image": "https://www.linkpicture.com/q/2_965.jpg"
+    }
+  },
+  {
+    "name": "Red Ball",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/redball",
+      "image": "https://www.linkpicture.com/q/1_1484.jpg"
+    }
+  },
+  {
+    "name": "Memory It",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/memory-it",
+      "image": "https://www.linkpicture.com/q/4_543.jpg"
+    }
+  },
+  {
+    "name": "Running Ball",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/astray",
+      "image": "https://www.linkpicture.com/q/3_695.jpg"
+    }
+  },
+  {
+    "name": "The Aviator",
+    "info": {
+      "author": "@johndoesurname",
+      "url": "/aviator",
+      "image": "https://www.linkpicture.com/q/1_1484.jpg"
+    }
+  }
+]
